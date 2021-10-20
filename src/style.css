@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+*::before{
+    box-sizing: border-box;
+}
+
+*::after{
+    box-sizing: border-box;
+}
+
+#bagua{
+    position: fixed;
+    margin:0 auto;
+    left:0;
+    right:0;
+    top: 20px;
+}
+
+#bagua::before{
+    content: '';
+    display: block;
+    border: 1px solid red;
+    position: absolute;
+}
+#bagua::after{
+    content: '';
+    display: block;
+    border: 1px solid red;
+    position: absolute;
+
+}
+#html{
+    word-break: break-all;
+}
+
+@media (max-width:500px){
+  
+    #html{
+        height: 50vh;
+        overflow: auto;
+        
+    }
+    #bagua{
+        position: relative;
+        margin: 0 auto;
+        left:0;
+        right:0;
+        border: 1px solid red;
+        
+    }
+}
+
+@keyframes xuanzhuan {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

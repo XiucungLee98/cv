@@ -1,0 +1,2 @@
+*{margin:0;padding:0}*,:after,:before{box-sizing:border-box}#bagua{left:0;margin:0 auto;position:fixed;right:0;top:20px}#bagua:after,#bagua:before{border:1px solid red;content:"";display:block;position:absolute}#html{word-break:break-all}@media (max-width:500px){#html{height:50vh;overflow:auto}#bagua{border:1px solid red;left:0;margin:0 auto;position:relative;right:0}}@keyframes xuanzhuan{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+/*# sourceMappingURL=index.126a8bd0.css.map */
